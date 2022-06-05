@@ -1,0 +1,35 @@
+#titulo{
+    font-weight:bold;
+    font-size:20px;
+  }
+  p, ul li{
+    font-size:14px !important;
+  }
+  hr{
+    width:60%;
+  }
+  
+  #intro header, #conocer header, #js_java header, #holaMundo header, #variables header, #constantes header{
+    margin:3%;
+    font-size:16px;
+    font-weight:bold;
+  }
+  
+  #navbar{
+    position:fixed;
+  }
+  
+  .nav-item a{
+    text-decoration: underline ;
+    color: #212529;
+    font-size:16px;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    #navbar{
+     position:relative;
+    }
+  }
+
+ 
+  
